@@ -1,0 +1,181 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+/*intro6*/
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+     z-index: 3;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #4d4343;
+}
+
+header .logo {
+
+
+    transition: 0.5s;
+
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+  
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+   z-index: 3;
+}
+
+header nav ul li a {
+  padding: 15px;
+  color: #A9224F;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background: #FFEBF1;
+  color: #A9224F;
+
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+
+}
+
+nav ul li:hover > ul {
+  display: initial;
+
+}
+.Intro6 {
+
+}
+
+.intro-image6 {
+  background-color: #ECD2C7;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 250%;
+
+}
+.birthday-decor {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.decor{
+ width: 300px;
+ height: 100%;
+
+ position: relative;
+ margin-top:100px;
+ box-shadow: 0 5px 10px #4d4343;
+}
+
+.decor:hover .decor-img {
+  transform: scale(1.2);
+
+}
+
+.decor-img {
+  transition: transform .3s linear;
+}
+
+.decor-img img {
+  display: block;
+
+}
+@media (max-width:1600px) {
+  .intro-image6{
+    height: 300%;
+    
+   
+    
+  }
+  
+}
+@media (max-width:1100px) {
+  .intro-image6{
+    width: 120%;
+   
+    
+  }
+  
+}
+@media (max-width:900px) {
+  .intro-image6{
+    width: 150%;
+   
+    
+  }
+  
+}
+@media (max-width:763px) {
+  .intro-image6{
+    width: 200%;
+   
+    
+  }
+  
+}
+@media (max-width:582px) {
+  .intro-image6{
+    width: 250%;
+
+   
+    
+  }
+  
+}
+@media (max-width:440px) {
+  .intro-image6{
+    width: 300%;
+
+   
+    
+  }
+  
+}
+@media (max-width:392px) {
+  .intro-image6{
+    width: 350%;
+    height: 350%;
+
+   
+    
+  }
+  
+}
+@media (max-width:316px) {
+  .intro-image6{
+    width: 400%;
+    height: 400%;
+   
+    
+  }
+  
+}

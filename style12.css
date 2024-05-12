@@ -1,0 +1,124 @@
+*
+header {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+     z-index: 3;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #4d4343;
+}
+
+header .logo {
+margin: 0;
+  padding: 0;
+    transition: 0.5s;
+
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+  
+}
+
+header nav ul li {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  float: left;
+   z-index: 3;
+}
+
+header nav ul li a {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  padding: 15px;
+  color: #A9224F;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  background: #FFEBF1;
+  color: #A9224F;
+
+}
+
+nav ul li ul {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+
+}
+
+nav ul li:hover > ul {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  display: initial;
+
+}
+ .container {   width: 75%;
+ 
+  background-color: #E3CCC0;
+  border-radius: 20px; /* скругление углов блока */
+  padding: 16px; /* внутренние поля */
+  margin: 16px auto; /* внешние отступы */
+}
+ .container img {
+  float: left; /* обтекание слева */
+  margin-right: 20px; /* пространство между аватаркой и абзацем */
+  border-radius: 50%; /* скругляет аватарку */
+  width: 90px;
+}
+
+.container span {
+  font-size: 18px;
+  font-family: 'Marmelad', sans-serif;
+  font-weight: 600;
+  color: #5A3313;
+  margin-right: 15px;
+}
+.container p {
+  font-family: 'Shantell Sans', cursive;
+  font-weight: 600;
+  color: #5A3313;
+}
+
+.bububu {
+  padding-top:100px ;
+}

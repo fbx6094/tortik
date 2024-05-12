@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+header {
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+     z-index: 3;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px #4d4343;
+}
+
+header .logo {
+
+    transition: 0.5s;
+
+}
+
+header .logo:hover {
+  transform: scale(1.2);
+  
+}
+
+header nav ul li {
+  position: relative;
+  float: left;
+   z-index: 3;
+}
+
+header nav ul li a {
+  padding: 15px;
+  color: #A9224F;
+  font-size: 16px;
+  display: block;
+}
+
+header nav ul li a:hover {
+  background: #FFEBF1;
+  color: #A9224F;
+
+}
+
+nav ul li ul {
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+
+
+}
+
+nav ul li:hover > ul {
+  display: initial;
+
+}
+.ssection1{
+  padding-top: 70px;
+  }
+
+  .sslogan1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 50px;
+  color: #5A3313;
+  margin-left: 100px;
+  padding-top: 40px;
+}
+
+.ccontainer1 {
+  height: 600px;
+  width: 1200px;
+
+  background: url(podpis.jpg) no-repeat;
+  background-position: bottom;
+   background-position: left;
+   background-size: initial;
+   position: relative;
+
+}
+ 
+.ssection-slogan1{
+  height: 600px;
+  color: #5A3313;
+ display: flex;
+ justify-content: space-between;
+ margin-left: 10px;
+
+  text-align: left;
+  
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+  
+}
+
+.sslogann1{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 25px;
+  color: #5A3313;
+  margin-left: 100px;
+  padding-top: 70px;
+  width: 500px;
+  position: absolute;
+
+}
+
+.sslogann11 {
+  padding-left: 450px;
+  padding-bottom: 20pxx;
+}
