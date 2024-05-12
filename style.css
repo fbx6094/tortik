@@ -962,6 +962,18 @@ p{
   
         
     } 
+
+
+
+    @keyframes fadein {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+        
+    }
     #odin:hover{
         font-size: 23px;
         background-color: #A9224F;
@@ -974,6 +986,7 @@ p{
 
     .submenu:hover .submenu__box {
         display: block;
+        animation: fadein 0.5s linear;
 
     }
     
@@ -1065,6 +1078,7 @@ p{
 
     .submenu2:hover .submenu__box2 {
         display: block;
+        animation: fadein 0.5s linear;
 
     }
     
@@ -1080,18 +1094,8 @@ p{
     
     .submenu__box2:hover {
         font-size: 25px;
+        /* animation: fadein 0.5s linear; */
     }
-
-
-
-
-
-
-
-
-
-
-
 
 
     .bl{
